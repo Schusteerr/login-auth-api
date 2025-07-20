@@ -3,8 +3,8 @@ POST http://localhost:8080/auth/register
 Content-type: application/json
 
 {
-  "name": "Pietro",
-  "email": "pietro@gmail.com",
+  "name": "example",
+  "email": "example@gmail.com",
   "password": "Senha123"
 }
 
@@ -13,10 +13,10 @@ POST http://localhost:8080/auth/login
 Content-type: application/json
 
 {
-  "email": "pietro@gmail.com",
+  "email": "example@gmail.com",
   "password": "Senha123"
 }
 
 ###
 GET http://localhost:8080/user
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2dpbi1hdXRoLWFwaSIsInN1YiI6InBpZXRyb0BnbWFpbC5jb20iLCJleHAiOjE3NTIyODE1NzV9.SYAy4KKV2_5fUi0fOc2XcbWFErCu52SBJvrpbtVmWqY
+Authorization: Bearer TOKEN_AQUI
